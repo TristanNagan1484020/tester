@@ -1,0 +1,38 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.sentimentanalysis.project",
+            "nativeLanguage": "en"
+        },
+        "jhipsterVersion": "5.8.2",
+        "applicationType": "monolith",
+        "baseName": "tester",
+        "packageName": "com.sentimentanalysis.project",
+        "packageFolder": "com/sentimentanalysis/project",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": false,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "postgresql",
+        "prodDatabaseType": "postgresql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": "eureka",
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "NTY2NmMyOTA2NTk2YjlmZTZjYzJiZjYzOGJkNzc0ZTM3YzkzZjY1MTgyMmNmZDBjNGZjODU5YWVmMzY0OGU3NWRhNTlhMzFiNDk4OTljY2RmNjZhMzIyZjk0N2IyNmU5OTA4NjE5NjQ5M2MwNjAyMTljY2U5ZjlhMDM3ZGQwNjg=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [],
+        "enableTranslation": true,
+        "nativeLanguage": "en",
+        "languages": ["en"]
+    }
+}
