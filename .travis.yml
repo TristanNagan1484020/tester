@@ -19,6 +19,7 @@ env:
     - SPRING_OUTPUT_ANSI_ENABLED=ALWAYS
     - SPRING_JPA_SHOW_SQL=false
     - JHI_DISABLE_WEBPACK_LOGS=true
+    - HEROKU_API_KEY=d17078f8-9515-4eba-8b4c-11bdebea753e
 before_install:
   - jdk_switcher use oraclejdk8
   - java -version
@@ -30,6 +31,9 @@ before_install:
   - npm -v
 install:
   - npm install
+  - npm install heroku
+  - heroku plugins:install heroku-cli-deploy
+  - heroku plugins:install java
 script:
   - chmod +x mvnw
   - ./mvnw clean test
